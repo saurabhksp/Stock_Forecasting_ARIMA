@@ -13,8 +13,7 @@ def get_requirements()->List[str]:
     return requirement_list
 
 setup(
-    name="time_series",
-    version="0.0.1",
+name="STOCK_FORECASTING_ARIMA",
     author="Saurabh Kumar",
     author_email="iamchauhan420@gmail.com",
     packages = find_packages(),
