@@ -18,7 +18,7 @@ apply_custom_style("app.png")
 
 # Currency selector
 currency = st.selectbox("Display Currency", ["INR", "USD", "EUR"])
-
+    
 # Get conversion rates
 def get_conversion_rate(from_currency, to_currency):
     if from_currency == to_currency:
